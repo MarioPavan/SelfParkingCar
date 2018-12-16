@@ -39,7 +39,6 @@ def back_parl_park(steer_pair):
     # steer_pair.on_for_degrees(steering=0,speed=-15,degrees=160,brake=False,block=True)
     steer_pair.on_for_degrees(steering=-park_steer,speed=-steer_speed,degrees=70,brake=False,block=True)
     steer_pair.on_for_degrees(steering=15,speed=15,degrees=250,brake=False,block=True)
-    
     steer_pair.on_for_degrees(steering=-15,speed=-15,degrees=100,brake=False,block=True)
 
 
